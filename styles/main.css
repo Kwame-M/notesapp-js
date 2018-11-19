@@ -1,0 +1,56 @@
+/* Whole website */
+* {
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+body {
+  margin: 0;
+}
+
+/* Navbar  */
+#navbar {
+  overflow: hidden;
+  background-color: #4267b2;
+  width: 100%;
+}
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Main page stuff*/
+.title{
+    background-color: #26375af0;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.section{
+  text-align: center;
+  padding: 20px;
+}
+
+.section a{
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Footer stuff */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin-top: 10px;
+  width: 100%;
+  background-color: #4267b2;
+  color: white;
+  text-align: center;
+}
