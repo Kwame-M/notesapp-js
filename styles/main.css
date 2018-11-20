@@ -41,6 +41,9 @@ body {
 .section a{
   text-decoration: none;
   font-size: 20px;
+  cursor: none;
+  color: black;
+  font-weight: 200;
 }
 
 /* Footer stuff */

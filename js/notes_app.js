@@ -2,18 +2,15 @@
   console.log("Note app");
 })();
 
-// (function(exports) {
-//   function Notes() {
-//     this.list = [];
-//   };
-//
-//   exports.Notes = Notes;
-// })(this);
-
 (function(exports) {
-  function Note(text) {
-    this.text = text
- }
-
- exports.Note = Note;
+  function Note() {
+    this.note = ""
+  };
+  Note.prototype.newNote = function(text) {
+    this.note = text
+  };
+  Note.prototype.getNote = function() {
+    return this.note;
+  }
+  exports.Note = Note;
 })(this);
