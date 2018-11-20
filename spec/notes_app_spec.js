@@ -1,11 +1,15 @@
-(function(exports) {
-  function testEmpty() {
-    var notes = new Notes();
+(function() {
+  console.log("Note app spec");
+})();
 
-    if (notes.list.length > 0 ) {
-      throw new Error("Nothing here chief 😇");
-    }
-  };
-
-  testEmpty();
-})(this);
+// (function(exports) {
+//   function Note(text) {
+//     var notes = new Notes();
+//
+//     if (notes.list.length > 0 ) {
+//       throw new Error("Nothing here chief 😇");
+//     }
+//   };
+//
+//   testEmpty();
+// })(this);
